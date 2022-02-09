@@ -169,7 +169,7 @@ width: 86%;
 
 .recent-stories a button {
   font-family: 'Inter', sans-serif;
-  font-size: 17px;
+  font-size: 18px;
   font-style: normal;
   font-weight: 700;
   line-height: 24px;
@@ -246,5 +246,72 @@ margin-top: 0.5rem;
   border: 1px thin gray;
 }
 
-.section1 
+.section1 a button {
+  background: rgba(255, 107, 0, 1);
+  color: #eee;
+  width: 100%;
+  padding: 1rem 0;
+  border: none;
+  font-family: 'Inter', sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+}
 
+.aboutme {
+  background: rgba(28, 26, 25, 1);
+  /* background-image: url("images/Group-aboutme.png"); */
+  background-repeat: no-repeat;
+  background-position: bottom right;
+}
+
+.aboutme h2 {
+  font-family: 'Crete Round',serif;
+  font-size: 72px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 88px;
+  text-align: center;
+  color: #ff6b00;
+  padding-top: 8rem;
+  margin-top: 5rem;
+}
+
+.aboutme p {
+  font-family: 'Inter', sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #eee;
+  padding: 2rem;
+}
+
+.aboutme a button {
+  font-family: 'Inter', sans-serif;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  /* text-align: center; */
+  background: rgba(255, 107, 0, 1);
+  color: #eee;
+  padding: 1rem;
+  border: none;
+  margin-left: 2rem;
+  margin-bottom: 2rem;
+}
+
+
+/* .side-image {
+  background-image: url("images/Group-aboutme.png");
+  background-repeat: no-repeat;
+  background-position: bottom right;
+  margin: 0;
+  height: 210px;
+} */
