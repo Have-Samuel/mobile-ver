@@ -97,7 +97,7 @@ ul {
   font-style: normal;
   font-weight: 400;
   line-height: 52px;
-  letter-spacing: 0em;
+  letter-spacing: 0;
   text-align: left;
   color: #1c1a19;
   margin: 6rem 1rem 4rem 2rem;
@@ -119,22 +119,22 @@ hr {
   font-style: normal;
   font-weight: 400;
   line-height: 44px;
-  letter-spacing: 0em;
+  letter-spacing: 0;
   text-align: left;
   color: rgba(9, 30, 66, 1);
   margin: 1rem 2rem 0.5rem 2rem;
 }
 
 .recent-stories p {
-font-family: 'Inter', sans-serif;
-font-size: 16px;
-font-style: normal;
-font-weight: 400;
-line-height: 24px;
-letter-spacing: 0em;
-color: #091e42;
-margin: 0.1rem 2rem;
-width: 86%;
+  font-family: 'Inter', sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0;
+  color: #091e42;
+  margin: 0.1rem 2rem;
+  width: 86%;
 }
 
 .recent-stories ul {
@@ -149,7 +149,7 @@ width: 86%;
   font-style: normal;
   font-weight: 500;
   line-height: 20px;
-  letter-spacing: 0em;
+  letter-spacing: 0;
 }
 
 .recent-stories ul li {
@@ -199,23 +199,23 @@ width: 86%;
   font-style: normal;
   font-weight: 400;
   line-height: 44px;
-  letter-spacing: 0em;
+  letter-spacing: 0;
   text-align: left;
   color: #ffffff;
   margin-left: 1rem;
 }
 
 .section1 p{
-color:rgba(255, 255, 255, 1);
-font-family: 'Inter', sans-serif;
-font-size: 16px;
-font-style: normal;
-font-weight: 400;
-line-height: 24px;
-letter-spacing: 0em;
-text-align: left;
-margin-left: 1rem;
-margin-top: 0.5rem;
+  color:rgba(255, 255, 255, 1);
+  font-family: 'Inter', sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0;
+  text-align: left;
+  margin-left: 1rem;
+  margin-top: 0.5rem;
 }
 
 .section1 ul {
@@ -229,8 +229,7 @@ margin-top: 0.5rem;
   font-style: normal;
   font-weight: 500;
   line-height: 20px;
-  letter-spacing: 0em;
-
+  letter-spacing: 0;
 }
 
 .section1 ul li {
@@ -263,6 +262,10 @@ margin-top: 0.5rem;
 .aboutme {
   background: rgba(28, 26, 25, 1);
 }
+
+.aboutme .group-images {
+  margin: 0 0 1rem 13.5rem;  
+} 
 
 .aboutme h2 {
   font-family: 'Crete Round',serif;
@@ -300,6 +303,12 @@ margin-top: 0.5rem;
   padding: 1rem;
   border: none;
   margin-left: 2rem;
+  margin-bottom: 2rem;
 }
 
-.
+.techno {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 5rem;
+}
