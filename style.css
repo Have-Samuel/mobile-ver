@@ -67,7 +67,7 @@
   text-align: left;
   margin-left: 2rem;
   margin-right: 2rem;
-  width: 84%;
+  /* width: 84%; */
   color: #fff;
 }
 
@@ -86,4 +86,49 @@
 .item {
   display: flex;
   padding: 0.8rem;
+}
+
+.recent-stories h3 {
+  font-family: 'Crete Round', serif;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 52px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #1c1a19;
+  margin: 6rem 1rem 4rem 2rem;
+}
+
+hr {
+  width: 86%;
+  margin-left: 6%;
+} 
+
+.placeholder {
+  width: 86%;
+  padding: 56px 24px 0 24px;
+}
+
+.recent-stories h4 {
+  font-family: Crete Round;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 44px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: rgba(9, 30, 66, 1);
+  margin: 1rem 2rem 0.5rem 2rem;
+}
+
+.recent-stories p {
+font-family: 'Inter', sans-serif;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0em;
+text-align: left;
+
 }
