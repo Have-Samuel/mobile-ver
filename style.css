@@ -263,7 +263,12 @@ margin-top: 0.5rem;
 .aboutme {
   background: rgba(28, 26, 25, 1);
   /* background-image: url("images/Group-aboutme.png"); */
-  background-repeat: no-repeat;
+  /* background-repeat: no-repeat;
+  background-position: bottom right;  */
+}
+
+.aboutme .group-images {
+  background-repeat: no-repeat; */
   background-position: bottom right;
 }
 
