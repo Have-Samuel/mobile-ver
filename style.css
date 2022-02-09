@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Crete+Round&family=Dosis:wght@300;400&family=Inter:wght@400;800&family=Montserrat:wght@700&family=Poppins:wght@200;600&family=Quicksand:wght@700&family=Roboto:wght@700&family=Space+Mono:ital@1&display=swap');
+
+* {
+  box-sizing: content-box;
+  padding: 0;
+  margin: 0;
+  width: auto;
+}
+
+.nav-bar {
+  display: flex;
+  justify-content: space-between;
+  background: #3c3a39;
+  color: #eee;
+  align-items: center;
+  padding: 30px 10%;
+  list-style: none;
+}
+
+.logo {
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0;
+  cursor: pointer;
+}
+
+.hambug {
+  cursor: pointer;
+}
+
+.section-one h1 {
+  font-family: 'Crete Round', serif;
+  font-size: 56px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 64px;
+  padding-top: 8rem;
+  color: #ff6b00;
+  margin-left: 2rem;
+  display: flex;
+}
+
+.section-one h2 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 32px;
+  letter-spacing: 0;
+  text-align: left;
+  margin-left: 2rem;
+  color: #fff5e1;
+  display: flex;
+}
+
+.section-one p {
+  display: flex;
+  font-family: 'Poppins', sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0;
+  text-align: left;
+  margin-left: 2rem;
+  margin-right: 2rem;
+  width: 58%;
+  color: #fff;
+}
+
+.section-one {
+  background: url('images/first-pic.png') rgba(28, 26, 25, 1) no-repeat;
+  background-position: right bottom;
+  min-height: 80vh;
+}
+
+.items {
+  list-style: none;
+  display: flex;
+  margin-left: 1.8rem;
+}
+
+.item {
+  display: flex;
+  padding: 0.8rem;
+}
