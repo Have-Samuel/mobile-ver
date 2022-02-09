@@ -262,14 +262,6 @@ margin-top: 0.5rem;
 
 .aboutme {
   background: rgba(28, 26, 25, 1);
-  /* background-image: url("images/Group-aboutme.png"); */
-  /* background-repeat: no-repeat;
-  background-position: bottom right;  */
-}
-
-.aboutme .group-images {
-  background-repeat: no-repeat; */
-  background-position: bottom right;
 }
 
 .aboutme h2 {
@@ -303,20 +295,11 @@ margin-top: 0.5rem;
   font-weight: 700;
   line-height: 24px;
   letter-spacing: 0.03em;
-  /* text-align: center; */
   background: rgba(255, 107, 0, 1);
   color: #eee;
   padding: 1rem;
   border: none;
   margin-left: 2rem;
-  margin-bottom: 2rem;
 }
 
-
-/* .side-image {
-  background-image: url("images/Group-aboutme.png");
-  background-repeat: no-repeat;
-  background-position: bottom right;
-  margin: 0;
-  height: 210px;
-} */
+.
