@@ -284,7 +284,14 @@ hr {
 }
 
 .aboutme {
-  background: rgba(28, 26, 25, 1);
+  background: url('images/Group-aboutme.png'), rgba(28, 26, 25, 1);
+  background-repeat: no-repeat;
+  background-position-x: right;
+  background-position-y: 31%;
+}
+
+.aboutme hr {
+  margin-top: 11rem;
 }
 
 .aboutme .group-images {
