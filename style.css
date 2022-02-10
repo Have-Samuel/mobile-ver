@@ -259,6 +259,13 @@ hr {
   letter-spacing: 0.03em;
 }
 
+.section1 a button:hover {
+  background: #f4f1f0;
+  text-decoration: underline #87ceeb;
+  border: 1px solid #87ceeb;
+  color: #5b5957;
+}
+
 .aboutme {
   background: rgba(28, 26, 25, 1);
 }
@@ -304,6 +311,12 @@ hr {
   border: none;
   margin-left: 2rem;
   margin-bottom: 2rem;
+}
+
+.aboutme a button:hover {
+  border: 2px solid #e4752b;
+  color: orangered;
+  background: #e4d9d5;
 }
 
 .techno {
