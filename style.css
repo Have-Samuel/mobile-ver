@@ -153,6 +153,16 @@ hr {
   letter-spacing: 0;
 }
 
+.section1 ul li {
+  display: grid;
+  gap: 0.2rem;
+  grid-template-columns: auto auto auto;
+  padding: 0.8rem;
+  margin: 0.4rem;
+  cursor: pointer;
+  background: rgba(255, 255, 255, 0.24);
+}
+
 .recent-stories ul li {
   display: flex;
   border: 1px solid gray;
@@ -181,16 +191,6 @@ hr {
   color: #fff;
   padding: 0.5rem;
   border: none;
-}
-
-.section1 ul li {
-  display: grid;
-  gap: 0.2rem;
-  grid-template-columns: auto auto auto;
-  padding: 0.8rem;
-  margin: 0.4rem;
-  cursor: pointer;
-  background: rgba(255, 255, 255, 0.24);
 }
 
 .section1 a button {
