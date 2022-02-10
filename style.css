@@ -178,7 +178,7 @@ hr {
   text-decoration: underline #f55800;
 }
 
-.recent-stories a button {
+.recent-stories .see__project {
   font-family: 'Inter', sans-serif;
   font-size: 18px;
   font-style: normal;
@@ -193,7 +193,7 @@ hr {
   border: none;
 }
 
-.section1 a button {
+.section1 .see-button {
   background: rgba(255, 107, 0, 1);
   color: #eee;
   width: 100%;
@@ -207,7 +207,7 @@ hr {
   letter-spacing: 0.03em;
 }
 
-.aboutme a button {
+.aboutme .get_my-resume {
   font-family: 'Inter', sans-serif;
   font-size: 17px;
   font-style: normal;
@@ -222,7 +222,7 @@ hr {
   margin-bottom: 2rem;
 }
 
-.recent-stories a button:hover {
+.recent-stories .see__project:hover {
   color: #5b5957;
   background-color: rgba(244, 241, 240, 1);
   text-decoration: underline #5b5957;
@@ -276,7 +276,7 @@ hr {
   border: 1px solid gray;
 }
 
-.section1 a button:hover {
+.section1 .see-button:hover {
   background: #f4f1f0;
   text-decoration: underline #87ceeb;
   border: 1px solid #87ceeb;
@@ -315,7 +315,7 @@ hr {
   padding: 2rem;
 }
 
-.aboutme a button:hover {
+.aboutme .get_my-resume:hover {
   border: 2px solid #e4752b;
   color: orangered;
   background: #e4d9d5;
