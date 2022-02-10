@@ -219,9 +219,8 @@ hr {
 }
 
 .section1 ul {
-  display: flex;
-  align-items: center;
-  text-align: left;
+  display: grid;
+  grid-template-columns: auto auto auto;
   margin: 0.7rem 1.8rem 0.7rem 0.7rem;
   color: #ffffff;
   font-family: 'Inter', sans-serif;
@@ -233,7 +232,9 @@ hr {
 }
 
 .section1 ul li {
-  display: flex;
+  display: grid;
+  gap: 0.2rem;
+  grid-template-columns: auto auto auto;
   padding: 0.8rem;
   margin: 0.4rem;
   cursor: pointer;
