@@ -472,3 +472,14 @@ textarea {
   margin: 0 auto 0.5rem auto;
   border-radius: 0.2rem;
 }
+
+@media only screen and (min-width: 1010px) {
+  body {
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  .desktop-nav-items {
+    display: flex;
+  }
+}
