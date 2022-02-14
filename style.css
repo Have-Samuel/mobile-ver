@@ -419,10 +419,6 @@ form hr {
 }
 
 textarea {
-  background: rgba(251, 248, 247, 1);
-}
-
-textarea {
   background-color: #fbf8f7;
   margin: 0;
   padding: 0.6rem;
