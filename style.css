@@ -481,5 +481,12 @@ textarea {
 
   .desktop-nav-items {
     display: flex;
+    
+
   }
+
+  .hambug {
+    display: none;
+  }
+
 }
