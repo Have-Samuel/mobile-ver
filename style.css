@@ -151,7 +151,6 @@ ul {
   font-weight: 500;
   line-height: 20px;
   letter-spacing: 0;
-  /* float: right; */
 }
 
 .section1 ul li {
@@ -294,7 +293,7 @@ ul {
 .aboutme .aboutme-line {
   margin-top: 11rem;
   margin-left: 1.5rem;
-  margin-right: 1.5rem
+  margin-right: 1.5rem;
 }
 
 .aboutme .group-images {
@@ -379,7 +378,7 @@ ul {
   font-style: normal;
   font-weight: 700;
   line-height: 44px;
-  letter-spacing: 0em;
+  letter-spacing: 0;
   text-align: center;
   color: #172b4d;
   padding: 6rem 1.4rem 4rem 1.4rem;
@@ -392,7 +391,7 @@ ul {
   font-style: normal;
   font-weight: 400;
   line-height: 24px;
-  letter-spacing: 0em;
+  letter-spacing: 0;
   border: none;
   padding: 1rem 2.5rem 0 0;
   color: #979493;
@@ -409,7 +408,7 @@ form hr {
   font-style: normal;
   font-weight: 400;
   line-height: 24px;
-  letter-spacing: 0em;
+  letter-spacing: 0;
   border: none;
   padding: 1rem 2.5rem 0 0;
   color: #979493;
@@ -432,7 +431,7 @@ textarea {
   font-style: normal;
   font-weight: 400;
   line-height: 24px;
-  letter-spacing: 0em;
+  letter-spacing: 0;
 }
 
 .contact-button {
