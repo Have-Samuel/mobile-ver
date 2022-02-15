@@ -610,5 +610,37 @@ textarea {
     margin-right: 30px;
   }
 
-  
+  .section2-wordings h4 {
+    display: flex;
+    font-family: "Crete Round", serif;
+    font-size: 32px;
+    font-weight: 400;
+    color: #091e42;
+    margin-bottom: 1.5rem;
+  }
+
+  .section2-wordings p {
+    font-family: "Inter", sans-serif;
+    line-height: 24px;
+    color: #091e42;
+    width: 76%;
+    margin-bottom: 1rem;
+  }
+
+  .languange-container {
+    margin-bottom: 1rem;
+  }
+
+  .section2-wordings .see__project {
+    width: 26%;
+  }
+
+  .section-cards {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    margin-left: 40px;
+  }
+
 }
