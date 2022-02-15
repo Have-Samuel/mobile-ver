@@ -643,4 +643,61 @@ textarea {
     margin-left: 40px;
   }
 
+  .empty-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    height: 400px;
+  }
+
+  #empty-card_content {
+    display: none;
+  }
+
+  .section-cards .section3__project {
+    display: none;
+  }
+
+  .section1 {
+    width: 26%;
+  }
+
+  .section3 > h4 {
+    margin-left: 14px;
+  }
+
+  .section3 > p {
+    margin-left: 14px;
+  }
+
+  #one {
+    grid-area: one;
+    background-image: url('images/imagecard1.png');
+    border: 1px solid black;
+  }
+
+  #two {
+    grid-area: two;
+    background-image: url('images/imagecard2.png');
+  }
+
+  #three {
+    grid-area: three;
+    background-image: url('images/imagecard3.png');
+  }
+
+  #four {
+    grid-area: four;
+    background-image: url('images/imagecard4.png');
+  }
+
+  #five {
+    grid-area: five;
+    background-image: url('images/imagecard5.png');
+  }
+
+  #six {
+    grid-area: six;
+    background-image: url('images/imagecard6.png');
+  }
 }
