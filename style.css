@@ -504,14 +504,13 @@ textarea {
     font-style: normal;
     font-weight: 600;
     line-height: 20px;
-    letter-spacing: 0em;
+    letter-spacing: 0;
     text-align: center;
-
   }
 
   .logo {
     cursor: pointer;
-    margin-right: auto
+    margin-right: auto;
   }
   
   .destop_nav-item {
@@ -522,11 +521,67 @@ textarea {
 
   .mail {
     font-size: 23px;
-    margin-bottom: 0;
     background: transparent;
     border: none;
     color: #fff;
-    margin-left: 0;
+    cursor: pointer;
+  }
+
+  .section-one {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: center;
+    background-image: url('images/Illustration-header.png');
+    background-color: #1c1a19;
+    background-position: right;
+    background-repeat: no-repeat;
+  }
+
+  .section-one_info {
+    width: 38%;
+    font-family: 'Crete Round', serif;
+    margin-right: 55%;
+    margin-bottom: 10rem;
+  }
+
+  .section-one h1 {
+    margin-bottom: 1.2rem;
+  }
+
+  .section-one h2 {
+    margin-bottom: 1rem;
+  }
+
+  .section-one p {
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: 0;
+    text-align: left;
+    /* padding-top: 0; */
+  }
+
+  .section-one .items {
+    display: block;
+    /* padding: 0; */
+    margin-top: 14rem;
+    margin-bottom: 16rem;
+    /* margin-right: 10px; */
+  }
+
+  .recent-stories h3 {
+    color: #091e42;
+    font-family: 'Crete Round', serif;
+    font-size: 40px;
+    font-weight: 400;
+    margin: 0 auto;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 
 }
