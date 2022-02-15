@@ -744,15 +744,58 @@ textarea {
   .aboutme {
     background-color: #1c1a19;
     margin-top: 8%;
-    /* background: url('images/Group.png');
-    background-repeat: no-repeat;
-    background-position: right; */
-    
   }
 
   .aboutme-header {
     display: flex;
   }
+  
+  .aboutme-info {
+    display: flex;
+    flex-direction: column;
+    font-family: 'inter', sans-serif;
+    align-items: flex-start;
+    margin-left: 6%;
+    margin-bottom: 13%;
+  }
 
+  .aboutme-header img {
+    display: flex;
+    margin-top: 9%;
+    margin-bottom: 15%;
+    width: 39%;
+  }
+
+  .aboutme-header h2 {
+    width: 60%;
+    margin-top: 20%;
+    margin-bottom: 0;
+    padding: 0;
+    margin-left: 6%;
+  }
+
+  .aboutme-paragraph {
+    width: 85%;
+    margin-left: 6%;
+    margin-top: 2%;
+    margin-bottom: 1%;
+  }
+
+  .aboutme-Info button {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Inter', sans-serif;
+    font-size: 17px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    padding: 10px 0;
+    background: #ff6b00;
+    border: none;
+    width: 30%;
+    color: #fff;
+    margin-left: 6%;
+  }
 
 }
