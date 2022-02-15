@@ -591,13 +591,24 @@ textarea {
   .section-one_content {
     display: flex;
     margin-left: 40px;
-    width: 90%;
-    flex-direction: row;
-    margin-top: 20px;
+    /* width: 90%; */
   }
 
-  .section-one_content ~ h4 > p > ul > button {
-    display: flex;
-    flex-direction: row;
+  .placeholder {
+    padding-right: 0;
   }
+
+  .project-info {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .section-one_content .section2-wordings {
+    display: flex;
+    flex-direction: column;
+    margin-top: 2rem;
+    margin-right: 30px;
+  }
+
+  
 }
