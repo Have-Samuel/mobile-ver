@@ -33,6 +33,7 @@ ul {
 
 .hambug {
   cursor: pointer;
+  margin-left: 14.5rem;
 }
 
 .section-one h1 {
@@ -393,7 +394,7 @@ ul {
   line-height: 24px;
   letter-spacing: 0;
   border: none;
-  padding: 1rem 2.5rem 0 0;
+  padding: 1rem 3rem 0 0;
   color: #979493;
 }
 
@@ -410,7 +411,7 @@ form hr {
   line-height: 24px;
   letter-spacing: 0;
   border: none;
-  padding: 1rem 2.5rem 0 0;
+  padding: 1rem 3rem 0 0;
   color: #979493;
 }
 
@@ -473,20 +474,59 @@ textarea {
   border-radius: 0.2rem;
 }
 
+.destop_nav-item {
+  display: none;
+}
+
 @media only screen and (min-width: 1010px) {
   body {
     width: 100%;
     margin: 0 auto;
   }
 
+  .hambug {
+    display: none;
+  }
+
+  .nav-bar {
+    display: none;
+  }
+
   .desktop-nav-items {
     display: flex;
-    
+    justify-content: flex-end;
+  }
+
+  .desktop-nav {
+    padding: 0 1rem;
+    font-family: 'Inter', sans-serif;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: center;
 
   }
 
-  .hambug {
-    display: none;
+  .logo {
+    cursor: pointer;
+    margin-right: auto
+  }
+  
+  .destop_nav-item {
+    display: flex;
+    color: #eee;
+    text-decoration: none;
+  }
+
+  .mail {
+    font-size: 23px;
+    margin-bottom: 0;
+    background: transparent;
+    border: none;
+    color: #fff;
+    margin-left: 0;
   }
 
 }
