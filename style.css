@@ -595,6 +595,16 @@ textarea {
     display: flex;
     margin-left: 40px;
     width: 90%;
+    flex-direction: row;
+    margin-top: 20px;
+    /* margin-left: -30px; */
   }
+
+  /* .section-one_content .section-one_desktop-content {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    margin-left: -30px;
+  } */
 
 }
