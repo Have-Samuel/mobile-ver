@@ -572,16 +572,29 @@ textarea {
     /* margin-right: 10px; */
   }
 
-  .recent-stories h3 {
+  .head-line {
+    display: flex;
+    width: 85%;
+    margin: 5% auto;
+    align-items: center;
+  }
+
+  .head-line h3 {
     color: #091e42;
     font-family: 'Crete Round', serif;
     font-size: 40px;
     font-weight: 400;
     margin: 0 auto;
     width: 50%;
+    /* display: flex; */
+    /* justify-content: center; */
+    /* align-items: center; */
+  }
+
+  .section-one_content {
     display: flex;
-    justify-content: center;
-    align-items: center;
+    margin-left: 40px;
+    width: 90%;
   }
 
 }
