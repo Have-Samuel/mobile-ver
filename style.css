@@ -665,6 +665,27 @@ textarea {
     justify-content: flex-end;
   }
 
+  .see-button1 {
+    background: #ff6b00;
+    color: #eee;
+    width: 100%;
+    padding: 0.8rem 0;
+    border: none;
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+  }
+
+  .see-button1:hover {
+    cursor: pointer;
+    border: 1px solid #f55800;
+    background-color: #eee;
+    color: #f55800;
+  }
+
   #empty-card_content {
     display: none;
   }
@@ -672,10 +693,6 @@ textarea {
   .section-cards .see-button {
     display: none;
   }
-
-  /* .section1 .see-button {
-    display: none;
-  } */
 
   .section1 {
     width: 26%;
@@ -685,7 +702,7 @@ textarea {
   .section1 > h4 {
     margin-left: 1rem;
     height: 5rem;
-    margin-top: 8rem;
+    margin-top: 8.5rem;
   }
 
   .section1 > p {
