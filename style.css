@@ -741,5 +741,18 @@ textarea {
     background-image: url('images/imagecard6.png');
   }
 
+  .aboutme {
+    background-color: #1c1a19;
+    margin-top: 8%;
+    /* background: url('images/Group.png');
+    background-repeat: no-repeat;
+    background-position: right; */
+    
+  }
+
+  .aboutme-header {
+    display: flex;
+  }
+
 
 }
