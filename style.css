@@ -540,9 +540,9 @@ textarea {
   }
 
   .section-one_info {
-    width: 38%;
+    width: 100%;
     font-family: 'Crete Round', serif;
-    margin-right: 55%;
+    margin-right: 41rem;
     margin-bottom: 10rem;
   }
 
@@ -655,6 +655,7 @@ textarea {
   .section-cards {    
     display: flex;
     flex-direction: row;
+    /* gap: -4rem; */
     flex-wrap: wrap;
     margin-left: 3rem;
   }
@@ -692,6 +693,10 @@ textarea {
 
   .section-cards .see-button {
     display: none;
+  }
+
+  .one .see-button {
+    display: block;
   }
 
   .section1 {
