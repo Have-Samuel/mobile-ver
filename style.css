@@ -180,7 +180,7 @@ ul {
 }
 
 .recent-stories .see__project {
-  font-family: 'Inter', sans-serif;
+  /* font-family: 'Inter', sans-serif;
   font-size: 18px;
   font-style: normal;
   font-weight: 700;
@@ -191,7 +191,7 @@ ul {
   background: #ff6b00;
   color: #fff;
   padding: 0.5rem;
-  border: none;
+  border: none; */
 }
 
 .section1 .see-button {
@@ -514,6 +514,13 @@ textarea {
   .logo {
     cursor: pointer;
     margin-right: auto;
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: center;
   }
 
   .logo {
@@ -535,6 +542,13 @@ textarea {
     display: flex;
     color: #eee;
     text-decoration: none;
+    font-family: 'Inter', sans-serif;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: center;
   }
 
   .mail {
@@ -557,14 +571,14 @@ textarea {
   }
 
   .section-one_info {
-    width: 100%;
+    width: 57%;
     font-family: 'Crete Round', serif;
-    margin-right: 41rem;
+    margin-right: 33rem;
     margin-bottom: 10rem;
   }
 
   .section-one h1 {
-    margin-bottom: 1.2rem;
+    margin-bottom: 1rem;
   }
 
   .section-one h2 {
@@ -573,13 +587,14 @@ textarea {
 
   .section-one p {
     font-family: 'Inter', sans-serif;
-    font-size: 16px;
+    font-size: 20px;
     font-style: normal;
     font-weight: 400;
     line-height: 32px;
     letter-spacing: 0;
     text-align: left;
-  }
+    width: 88%;
+  } 
 
   .section-one .items {
     display: block;
@@ -618,7 +633,7 @@ textarea {
 
   .placeholder:hover {
     transition-duration: 0.5s;
-    transform: scale(1.2);
+    transform: scale(1.06);
   }
 
   .project-info {
@@ -628,7 +643,7 @@ textarea {
   }
 
   .see__project {
-    font-family: 'Inter', sans-serif;
+    /* font-family: 'Inter', sans-serif;
     font-size: 18px;
     font-style: normal;
     font-weight: 700;
@@ -639,7 +654,20 @@ textarea {
     background: #ff6b00;
     color: #fff;
     padding: 2rem 0;
+    border: none; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Inter', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    padding: 0.8rem;
+    margin-left: 2rem;
+    background: #ff6b00;
     border: none;
+    color: #fff;
   }
 
   .section-one_content .section2-wordings {
