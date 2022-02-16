@@ -515,7 +515,7 @@ textarea {
     cursor: pointer;
     margin-right: auto;
   }
-  
+
   .destop_nav-item {
     display: flex;
     color: #eee;
@@ -708,7 +708,6 @@ textarea {
 
   .section1 {
     width: 30%;
-    /* height: 24rem; */
     margin: 12px 10px;
   }
 
@@ -866,7 +865,7 @@ textarea {
   .contact-name {
     margin-right: 25rem;
   }
-  
+
   .contact-email {
     margin-right: 25rem;
   }
@@ -888,7 +887,7 @@ textarea {
   }
 
   .ending-lining {
-    display: none
+    display: none;
   }
 
   .closedown {
