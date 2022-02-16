@@ -516,6 +516,21 @@ textarea {
     margin-right: auto;
   }
 
+  .logo {
+    animation-duration: 2s;
+    animation-name: rotate;
+  }
+
+  @keyframes rotate {
+    from {
+      transform: rotate(0deg);
+    }
+
+    to {
+      transform: rotate(360deg);
+    }
+  }
+
   .destop_nav-item {
     display: flex;
     color: #eee;
@@ -599,6 +614,11 @@ textarea {
 
   .placeholder {
     padding-right: 0;
+  }
+
+  .placeholder:hover {
+    transition-duration: 0.5s;
+    transform: scale(1.2);
   }
 
   .project-info {
