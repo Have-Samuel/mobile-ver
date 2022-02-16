@@ -657,15 +657,16 @@ textarea {
     border: 2px solid #87ceeb;
   }
 
-  .section-cards > section {
-    /* display: flex;
+  .section-cards {
+    display: flex;
     flex-direction: row;
-    flex-wrap: wrap; */
-    display: grid;
+    flex-wrap: wrap;
+    margin-left: 3rem;
+    /* display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 1rem;
     background-color: #2196F3;
-    margin-left: 3rem;
+     */
   }
 
   .empty-card {
