@@ -824,27 +824,47 @@ textarea {
   }
 
   .aboutme-Languages {
-    display: flex;
-    flex-direction: column;
+    display: block;
   }
 
-  .aboutme-Languages ul li {
-    display: flex;
-    margin-left: 1.6rem;
-    margin-top: 0.8rem;
+  .aboutme-Languages > ul > li {
+    text-align: left;
+  }
+
+  .more {
+    margin-top: 0.5rem;
+    margin-bottom: -0.6rem;
+  }
+
+  .aboutme-language-item {
+    margin-top: 0.3rem;
+    padding: 1rem;
+  }
+
+  .aboutme-frame-item {
+    padding: 0.5rem;
+  }
+
+  .less {
+    margin-bottom: 0.5rem;
+  }
+
+  .aboutme-skills-item {
+    padding: 0.6rem;
   }
 
   .all {
     display: flex;
-    margin-left: 1.5rem;
+    margin-left: 5px;
   }
 
   .all p {
-    margin-left: 1rem;
+    margin-left: 0;
   }
 
   .all img {
     padding-right: 1rem;
+    margin-bottom: 1rem;
   }
 
   .contact-section_form {
