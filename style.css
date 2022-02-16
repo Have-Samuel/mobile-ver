@@ -658,10 +658,11 @@ textarea {
   }
 
   .section-cards {
-    display: flex;
+    /* display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
-    /* margin-left: 3rem; */
+    flex-wrap: wrap; */
+    display: grid;
+    margin-left: 3rem;
   }
 
   .empty-card {
@@ -706,7 +707,6 @@ textarea {
   .section1 {
     width: 26%;
     height: 26rem;
-    margin-right: 2rem;
   }
 
   .section1 > h4 {
