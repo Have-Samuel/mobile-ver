@@ -429,6 +429,7 @@ textarea {
   font-weight: 400;
   line-height: 24px;
   letter-spacing: 0;
+  border: none;
 }
 
 .contact-button {
@@ -829,6 +830,41 @@ textarea {
     padding-right: 1rem;
     padding-top: 0.8rem;
   }
+
+  .contact-section_form {
+    display: flex;
+  }
+
+  .contact-section_form p {
+    width: 28%;
+    text-align: left;
+    margin-left: 4rem;
+  }
+
+  .contact-section_form form {
+    width: 60%;
+    margin-top: 5.5rem;
+  }
+
+  .contact-name {
+    margin-right: 25rem;
+  }
   
+  .contact-email {
+    margin-right: 25rem;
+  }
+
+  .form-line {
+    margin-right: 10.4rem;
+    margin-left: 0.7rem;
+    width: 90%;
+  }
+
+  textarea {
+    width: 87%;
+    margin-right: 3rem;
+    border: none;
+  }
+
 
 }
