@@ -657,15 +657,14 @@ textarea {
     border: 2px solid #87ceeb;
   }
 
-  .section-cards {
+  .section-cards > section {
     /* display: flex;
     flex-direction: row;
     flex-wrap: wrap; */
     display: grid;
-  grid-template-columns: auto auto auto;
-  gap: 10px;
-  background-color: #2196F3;
-  padding: 10px;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+    background-color: #2196F3;
     margin-left: 3rem;
   }
 
@@ -732,11 +731,14 @@ textarea {
     grid-area: one;
     background-image: url('images/imagecard1.png');
     border: 1px solid black;
+    display: flex;
   }
 
   .two {
     grid-area: two;
     background-image: url('images/imagecard2.png');
+    display: flex;
+    flex-direction: column;
   }
 
   .three {
