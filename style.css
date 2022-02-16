@@ -605,6 +605,21 @@ textarea {
     width: 80%;
   }
 
+  .see__project {
+    font-family: 'Inter', sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    text-align: center;
+    margin-left: 2rem;
+    background: #ff6b00;
+    color: #fff;
+    padding: 2rem 0;
+    border: none;
+  }
+
   .section-one_content .section2-wordings {
     display: flex;
     flex-direction: column;
@@ -637,31 +652,16 @@ textarea {
     width: 26%;
   }
 
-  .see__project{
-    font-family: 'Inter', sans-serif;
-    font-size: 18px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: 24px;
-    letter-spacing: 0.03em;
-    text-align: center;
-    margin-left: 2rem;
-    background: #ff6b00;
-    color: #fff;
-    padding: 2rem 0;
-    border: none;
-  }
-
   .see__project:hover {
     text-decoration: underline #87ceeb;
     border: 2px solid #87ceeb;
   }
 
-  .section-cards {    
+  .section-cards {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    margin-left: 3rem;
+    /* margin-left: 3rem; */
   }
 
   .empty-card {
@@ -706,6 +706,7 @@ textarea {
   .section1 {
     width: 26%;
     height: 26rem;
+    margin-right: 2rem;
   }
 
   .section1 > h4 {
@@ -805,7 +806,7 @@ textarea {
     color: #fff;
   }
 
-   .aboutme .aboutme-line {
+  .aboutme .aboutme-line {
     margin: 8rem 9rem 6rem 6rem;
   }
 
@@ -824,7 +825,6 @@ textarea {
 
   .aboutme-Languages ul li {
     display: flex;
-    flex-direction: start;
     margin-left: 1.6rem;
     margin-top: 0.8rem;
   }
@@ -886,8 +886,6 @@ textarea {
   }
 
   .closedown {
-   
     margin-right: 6rem;
   }
-
 }
