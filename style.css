@@ -588,7 +588,7 @@ textarea {
 
   .section-one_content {
     display: flex;
-    margin-left: 40px;
+    margin-left: 3.5rem;
   }
 
   .placeholder {
@@ -604,7 +604,7 @@ textarea {
     display: flex;
     flex-direction: column;
     margin-top: 2rem;
-    margin-right: 30px;
+    margin-right: 2rem;
   }
 
   .section2-wordings h4 {
@@ -643,7 +643,7 @@ textarea {
     margin-left: 2rem;
     background: #ff6b00;
     color: #fff;
-    padding: 0.5rem;
+    padding: 2rem 0;
     border: none;
   }
 
@@ -656,8 +656,7 @@ textarea {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    width: 100%;
-    margin: 0 2rem;
+    margin-left: 3rem;
   }
 
   .empty-card {
@@ -838,7 +837,7 @@ textarea {
   .contact-section_form p {
     width: 28%;
     text-align: left;
-    margin-left: 4rem;
+    margin-left: 5rem;
   }
 
   .contact-section_form form {
@@ -866,5 +865,17 @@ textarea {
     border: none;
   }
 
+  .contact-button {
+    margin-right: 35rem;
+  }
+
+  .ending-lining {
+    display: none
+  }
+
+  .closedown {
+   
+    margin-right: 6rem;
+  }
 
 }
