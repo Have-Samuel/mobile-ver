@@ -705,25 +705,29 @@ textarea {
 
   .section1 {
     width: 26%;
-    height: 25rem;
+    height: 26rem;
   }
 
   .section1 > h4 {
-    margin-left: 1rem;
-    height: 5rem;
-    margin-top: 8.5rem;
+    margin-left: 0.8rem;
+    height: 6rem;
+    margin-top: 8.7rem;
   }
 
   .section1 > p {
-    margin-left: 1rem;
+    margin-left: 0.8rem;
     height: 6rem;
+  }
+
+  .section1 > ul > li {
+    margin-left: 0.1rem;
   }
 
   .one {
     grid-area: one;
     background-image: url('images/imagecard1.png');
     border: 1px solid black;
-    min-height: 64vh;
+    /* min-height: 60vh; */
   }
 
   .two {
