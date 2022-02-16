@@ -575,7 +575,6 @@ textarea {
     width: 85%;
     margin: 3rem auto;
     align-items: center;
-    
   }
 
   .head-line .fast-line {
@@ -603,6 +602,7 @@ textarea {
   .project-info {
     display: flex;
     flex-direction: column;
+    width: 80%;
   }
 
   .section-one_content .section2-wordings {
@@ -625,7 +625,7 @@ textarea {
     font-family: "Inter", sans-serif;
     line-height: 24px;
     color: #091e42;
-    width: 76%;
+    width: 79%;
     margin-bottom: 1rem;
   }
 
@@ -660,7 +660,6 @@ textarea {
   .section-cards {    
     display: flex;
     flex-direction: row;
-    /* gap: -4rem; */
     flex-wrap: wrap;
     margin-left: 3rem;
   }
@@ -700,7 +699,7 @@ textarea {
     display: none;
   }
 
-  .one .see-button {
+  .one .see-button1 {
     display: block;
   }
 
@@ -724,6 +723,7 @@ textarea {
     grid-area: one;
     background-image: url('images/imagecard1.png');
     border: 1px solid black;
+    min-height: 64vh;
   }
 
   .two {
