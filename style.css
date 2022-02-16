@@ -710,33 +710,33 @@ textarea {
     height: 6rem;
   }
 
-  #one {
+  .one {
     grid-area: one;
     background-image: url('images/imagecard1.png');
     border: 1px solid black;
   }
 
-  #two {
+  .two {
     grid-area: two;
     background-image: url('images/imagecard2.png');
   }
 
-  #three {
+  .three {
     grid-area: three;
     background-image: url('images/imagecard3.png');
   }
 
-  #four {
+  .four {
     grid-area: four;
     background-image: url('images/imagecard4.png');
   }
 
-  #five {
+  .five {
     grid-area: five;
     background-image: url('images/imagecard5.png');
   }
 
-  #six {
+  .six {
     grid-area: six;
     background-image: url('images/imagecard6.png');
   }
@@ -801,7 +801,7 @@ textarea {
     flex-direction: row;
     justify-content: space-around;
     margin-right: 8rem;
-    min-height: 34rem;
+    min-height: 30rem;
   }
 
   .aboutme-Languages {
@@ -827,7 +827,7 @@ textarea {
 
   .all img {
     padding-right: 1rem;
-    padding-top: 0.8rem;
+    /* padding-top: 0.8rem; */
   }
 
   .contact-section_form {
