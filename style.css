@@ -665,10 +665,6 @@ textarea {
     justify-content: flex-end;
   }
 
-  /* .see-button {
-    display: none;
-  } */
-
   .see-button1 {
     background: #ff6b00;
     color: #eee;
@@ -833,5 +829,6 @@ textarea {
     padding-right: 1rem;
     padding-top: 0.8rem;
   }
+  
 
 }
