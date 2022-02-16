@@ -727,7 +727,6 @@ textarea {
     grid-area: one;
     background-image: url('images/imagecard1.png');
     border: 1px solid black;
-    /* min-height: 60vh; */
   }
 
   .two {
@@ -841,7 +840,6 @@ textarea {
 
   .all img {
     padding-right: 1rem;
-    /* padding-top: 0.8rem; */
   }
 
   .contact-section_form {
