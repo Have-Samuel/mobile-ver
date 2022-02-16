@@ -395,6 +395,7 @@ ul {
   letter-spacing: 0;
   border: none;
   padding: 1rem 3rem 0 0;
+  padding: 1rem 3.5rem 0 0;
   color: #979493;
 }
 
@@ -412,6 +413,7 @@ form hr {
   letter-spacing: 0;
   border: none;
   padding: 1rem 3rem 0 0;
+  padding: 1rem 3.5rem 0 0;
   color: #979493;
 }
 
