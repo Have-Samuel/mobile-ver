@@ -573,8 +573,13 @@ textarea {
   .head-line {
     display: flex;
     width: 85%;
-    margin: 5% auto;
+    margin: 3rem auto;
     align-items: center;
+    
+  }
+
+  .head-line .fast-line {
+    width: 100%;
   }
 
   .head-line h3 {
