@@ -797,9 +797,19 @@ textarea {
   }
 
    .aboutme .aboutme-line {
-    width: 80%;
-  
-  
+    margin: 10rem 9rem 6rem 6rem;
   }
+
+  .techno {
+    display: flex;
+    flex-direction: row;
+  }
+
+  /* .all {
+    display: flex;
+   
+  } */
+
+  
 
 }
