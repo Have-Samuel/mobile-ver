@@ -663,12 +663,8 @@ textarea {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    margin-left: 3rem;
-    /* display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 1rem;
-    background-color: #2196F3;
-     */
+    margin-left: 4.4rem;
+    margin-top: 1rem;
   }
 
   .empty-card {
@@ -711,8 +707,9 @@ textarea {
   }
 
   .section1 {
-    width: 26%;
-    height: 26rem;
+    width: 30%;
+    /* height: 24rem; */
+    margin: 12px 10px;
   }
 
   .section1 > h4 {
