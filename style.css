@@ -424,7 +424,7 @@ form hr {
 textarea {
   background-color: #fbf8f7;
   margin: 0;
-  padding: 0.6rem;
+  padding: 0;
   font-family: 'Inter', sans-serif;
   font-size: 18px;
   font-style: normal;
@@ -542,9 +542,8 @@ textarea {
   }
 
   .section-one_info {
-    width: 100%;
     font-family: 'Crete Round', serif;
-    margin-right: 41rem;
+    margin-right: 40rem;
     margin-bottom: 10rem;
   }
 
@@ -563,7 +562,7 @@ textarea {
     font-weight: 400;
     line-height: 32px;
     letter-spacing: 0;
-    text-align: left;
+    width: 86%;
   }
 
   .section-one .items {
@@ -883,11 +882,12 @@ textarea {
   }
 
   .contact-name {
-    margin-right: 23rem;
+    margin-right: 24rem;
   }
 
   .contact-email {
-    margin-right: 23rem;
+    margin-right: 24rem;
+    
   }
 
   .form-line {
@@ -897,7 +897,7 @@ textarea {
   }
 
   textarea {
-    width: 87%;
+    width: 90%;
     margin-right: 3rem;
     border: none;
   }
