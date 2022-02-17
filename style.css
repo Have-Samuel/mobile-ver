@@ -91,6 +91,21 @@ ul {
 .item {
   display: flex;
   padding: 0.8rem;
+  position: relative;
+  animation-name: oscar;
+  animation-duration: 1s;
+  animation-timing-function: ease-in-out;
+}
+
+@keyframes oscar {
+  from {
+    right: 100px;
+  }
+
+  to {
+    right: 0px;
+    transform: rotate(360deg);
+  }
 }
 
 .recent-stories h3 {
