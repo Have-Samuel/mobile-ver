@@ -15,7 +15,7 @@
 
 ## Live Demo (if available)
 
-[Live Demo Link](http://127.0.0.1:5502/)
+[Live Demo Link](https://have-samuel.github.io/mobile-ver/)
 
 To get a local copy up and running follow these simple example steps.
 
