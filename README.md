@@ -1,4 +1,4 @@
-![](https://img.shields.io/badge/Microverse-blueviolet)
+![](https://img.shields.io/badge/Mi)
 
 # Mobile Version
 
@@ -15,7 +15,7 @@
 
 ## Live Demo (if available)
 
-[Live Demo Link](http://127.0.0.1:5500/index.html#)
+[Live Demo Link](http://127.0.0.1:5502/)
 
 To get a local copy up and running follow these simple example steps.
 
