@@ -589,22 +589,24 @@ textarea {
     font-size: 40px;
     font-weight: 400;
     margin: 0 auto;
-    width: 50%;
+    width: 60%;
   }
 
   .section-one_content {
     display: flex;
-    margin-left: 3.5rem;
+    margin-left: 2.5rem;
   }
 
   .placeholder {
+    width: 52%;
+    margin-top: 0;
     padding-right: 0;
   }
 
   .project-info {
     display: flex;
     flex-direction: column;
-    width: 80%;
+    width: 49%;
   }
 
   .see__project {
@@ -663,7 +665,7 @@ textarea {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    margin-left: 4.4rem;
+    margin-left: 3.5rem;
     margin-top: 1rem;
   }
 
@@ -707,7 +709,7 @@ textarea {
   }
 
   .section1 {
-    width: 30%;
+    width: 29%;
     margin: 12px 10px;
   }
 
