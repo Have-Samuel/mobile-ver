@@ -262,7 +262,7 @@ ul {
 .section1 ul {
   display: grid;
   grid-template-columns: auto auto auto;
-  margin: 0.7rem 1.8rem 0.7rem 0.7rem;
+  margin: 0.7rem 2rem 0.7rem 0.7rem;
   color: #fff;
   font-family: 'Inter', sans-serif;
   font-size: 16px;
@@ -588,22 +588,24 @@ textarea {
     font-size: 40px;
     font-weight: 400;
     margin: 0 auto;
-    width: 50%;
+    width: 60%;
   }
 
   .section-one_content {
     display: flex;
-    margin-left: 3.5rem;
+    margin-left: 2.5rem;
   }
 
   .placeholder {
+    width: 52%;
+    margin-top: 0;
     padding-right: 0;
   }
 
   .project-info {
     display: flex;
     flex-direction: column;
-    width: 80%;
+    width: 49%;
   }
 
   .see__project {
@@ -662,7 +664,7 @@ textarea {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    margin-left: 4.4rem;
+    margin-left: 3.5rem;
     margin-top: 1rem;
   }
 
@@ -706,7 +708,7 @@ textarea {
   }
 
   .section1 {
-    width: 30%;
+    width: 29%;
     margin: 12px 10px;
   }
 
@@ -728,6 +730,7 @@ textarea {
   .one {
     grid-area: one;
     background-image: url('images/imagecard1.png');
+    background-repeat: no-repeat;
     border: 1px solid black;
     display: flex;
   }
@@ -735,6 +738,7 @@ textarea {
   .two {
     grid-area: two;
     background-image: url('images/imagecard2.png');
+    background-repeat: no-repeat;
     display: flex;
     flex-direction: column;
   }
@@ -742,21 +746,25 @@ textarea {
   .three {
     grid-area: three;
     background-image: url('images/imagecard3.png');
+    background-repeat: no-repeat;
   }
 
   .four {
     grid-area: four;
     background-image: url('images/imagecard4.png');
+    background-repeat: no-repeat;
   }
 
   .five {
     grid-area: five;
     background-image: url('images/imagecard5.png');
+    background-repeat: no-repeat;
   }
 
   .six {
     grid-area: six;
     background-image: url('images/imagecard6.png');
+    background-repeat: no-repeat;
   }
 
   .aboutme {
