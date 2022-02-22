@@ -10,8 +10,7 @@
 ## Built With
 
 - HTML & CSS
-- Git & Github
-- Flexbox & CSS Grid
+- Git & Github- Flexbox & CSS Grid
 
 ## Live Demo (if available)
 
