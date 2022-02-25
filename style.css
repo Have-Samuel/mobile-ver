@@ -599,7 +599,7 @@ textarea {
   }
 
   .placeholder {
-    width: 52%;
+    width: 51%;
     margin-top: 0;
     padding-right: 0;
   }
@@ -607,7 +607,7 @@ textarea {
   .project-info {
     display: flex;
     flex-direction: column;
-    width: 49%;
+    width: 53%;
   }
 
   .see__project {
@@ -880,7 +880,7 @@ textarea {
   }
 
   .contact-section_form p {
-    width: 28%;
+    width: 60%;
     text-align: left;
     margin-left: 5rem;
   }
