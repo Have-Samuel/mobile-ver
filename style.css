@@ -180,7 +180,6 @@ ul {
   border: 1px solid #f55800;
   background: #fff5e1;
   color: #f55800;
-  text-decoration: underline #f55800;
 }
 
 .recent-stories .see__project {
@@ -230,7 +229,6 @@ ul {
 .recent-stories .see__project:hover {
   color: #5b5957;
   background-color: rgba(244, 241, 240, 1);
-  text-decoration: underline #5b5957;
 }
 
 .section1 {
@@ -284,7 +282,6 @@ ul {
 
 .section1 .see-button:hover {
   background: #f4f1f0;
-  text-decoration: underline #87ceeb;
   border: 1px solid #87ceeb;
   color: #5b5957;
 }
@@ -375,7 +372,6 @@ ul {
 .contact-form {
   display: flex;
   flex-direction: column;
-  /* text-align: center; */
   padding: 2rem;
 }
 
@@ -662,7 +658,6 @@ textarea {
   }
 
   .see__project:hover {
-    text-decoration: underline #87ceeb;
     border: 2px solid #87ceeb;
   }
 
