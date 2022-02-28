@@ -45,7 +45,7 @@ body {
 
 .navmenu {
   width: 374px;
-  height: 78%;
+  height: 100%;
   position: fixed;
   top: 0;
   right: -100%;
@@ -98,6 +98,8 @@ ul {
   align-items: center;
   padding: 30px 10%;
   list-style: none;
+  position: fixed;
+  width: 80%;
 }
 
 .logo {
@@ -564,10 +566,6 @@ textarea {
     margin: 0 auto;
   }
 
-/* .navmenu {
-  display: none;
-} */
-
   .hambug {
     display: none;
   }
@@ -579,7 +577,6 @@ textarea {
   .desktop-nav-items {
     display: flex;
     justify-content: flex-end;
-    /* position: fixed; */
   }
 
   .desktop-nav {
