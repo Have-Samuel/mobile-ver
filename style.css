@@ -22,6 +22,7 @@ body {
 
 .navmenu {
   width: 100%;
+<<<<<<< HEAD
   font-family: 'inter', sans-serif;
   font-size: 32px;
   font-style: normal;
@@ -46,6 +47,9 @@ body {
 
 .change {
   right: 0;
+=======
+  /*height: 100vh;*/
+>>>>>>> e1da615065053664a9c3acc0ab6513cd4c4899ee
 }
 
 .ham-menu {
@@ -79,6 +83,21 @@ body {
   transform: rotateZ(405deg) translate(-8px, -7px);
 }
 
+<<<<<<< HEAD
+=======
+.navmenu {
+  width: 375px;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  right: 0;
+  background: #3c3a39;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+>>>>>>> e1da615065053664a9c3acc0ab6513cd4c4899ee
 .nav_list {
   margin-top: 100px;
   margin-left: 20px;
