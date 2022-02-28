@@ -32,15 +32,11 @@ body {
   align-items: center;
 }
 
-.change {
-  right: 0;
-}
-
 .ham-menu {
   width: 15px;
-  position: fixed;
+  position: relative;
   top: 33px;
-  right: 46px;
+  left: 8.3rem;
   cursor: pointer;
   display: flex;
   flex-direction: column;
@@ -52,12 +48,18 @@ body {
   height: 78%;
   position: fixed;
   top: 0;
-  right: 100%;
+  right: -100%;
   background: #3c3a39;
   display: flex;
   justify-content: flex-start;
   align-items: center;
+  transition: 0.1s;
 }
+
+.change {
+  right: 0;
+}
+
 
 .nav_list {
   margin-top: 80px;

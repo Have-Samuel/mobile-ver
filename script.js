@@ -4,7 +4,16 @@ const closeIcon = document.querySelector('.ham-menu');
 
       menuLinks = document.querySelector('.navmenu');
 
-      
+      menuIcon.addEventListener('click', function() {
+        menuLinks.classList.add('change');
+      });
+
+      closeIcon.addEventListener('click', function() {
+        menuLinks.classList.remove('change')
+      })
+
+
+
 
     // navmenu = document.querySelector('.navmenu');
 
