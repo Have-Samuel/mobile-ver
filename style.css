@@ -69,6 +69,7 @@ body {
   margin-right: 11rem;
   padding: 10px;
   border-bottom: 1px solid gray;
+  width: 90%;
 }
 
 .nav_link {
