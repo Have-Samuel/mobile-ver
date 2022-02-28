@@ -31,7 +31,7 @@ body {
 }
 
 .line {
-  background-color: #eee;
+  background-color: rgba(103, 121, 142, 1);
   width: 100%;
   height: 3px;
   transition: all 0.8s;
