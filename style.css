@@ -34,21 +34,22 @@ body {
   background-color: #eee;
   width: 100%;
   height: 3px;
+  transition: all 0.8s;
 }
 
-.line1 {
-  transform: rotateZ(-405deg) translate(-8px 6px);
+.change .line1 {
+  transform: rotateZ(-405deg) translate(-8px, 6px);
 }
 
 .line2 {
   opacity: 0;
 }
 
-.line3 {
-  transform: rotateZ(405deg) translate(-8px -8px);
+.change .line3 {
+  transform: rotateZ(405deg) translate(-8px, -7px);
 }
 
-.menu-nav {
+.navmenu {
   width: 375px;
   height: 100%;
   position: fixed;
