@@ -1,7 +1,13 @@
-const menuIcon = document.querySelector('.ham-menu');
+const closeIcon = document.querySelector('.ham-menu');
 
-const navmenu = document.querySelector('.navmenu');
+      menuIcon = document.querySelector('.hambug');
 
-menuIcon.addEventListener('click', () => {
-  navmenu.classList.toggle('change');
-});
+      menuLinks = document.querySelector('.navmenu');
+
+      
+
+    // navmenu = document.querySelector('.navmenu');
+
+// menuIcon.addEventListener('click', () => {
+//   navmenu.classList.toggle('change');
+// });

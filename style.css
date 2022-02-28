@@ -52,7 +52,7 @@ body {
   height: 78%;
   position: fixed;
   top: 0;
-  right: 0;
+  right: 100%;
   background: #3c3a39;
   display: flex;
   justify-content: flex-start;
