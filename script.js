@@ -58,7 +58,21 @@ const projectDetails = {
   sourceLink: '#'
 }
 
-const blurDiv = document.createElement('div')
-blurDiv.classList.add('blur')
+function window (){
+  const blurDiv = document.createElement('div')
+  blurDiv.classList.add('blur')
+  
+  let title = document.createElement('h3');
+  title.innerHTML = projectDetails.name;
+  blurDiv.appendChild(title);
+  
+  
+  document.body.appendChild(blurDiv)
 
-document.body.appendChild(blurDiv)
+  
+  
+  
+}
+
+
+
