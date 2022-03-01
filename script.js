@@ -1,21 +1,21 @@
 const closeIcon = document.querySelector('.ham-menu');
 
-      menuIcon = document.querySelector('.hambug');
+const menuIcon = document.querySelector('.hambug');
 
-      menuLinks = document.querySelector('.navmenu');
+const menuLinks = document.querySelector('.navmenu');
 
-      menuIcon.addEventListener('click', function() {
-        menuLinks.classList.add('change');
-      });
+menuIcon.addEventListener('click', () => {
+  menuLinks.classList.add('change');
+});
 
-      closeIcon.addEventListener('click', function() {
-        menuLinks.classList.remove('change')
-      })
+closeIcon.addEventListener('click', () => {
+  menuLinks.classList.remove('change');
+});
 
 const listItems = document.querySelectorAll('.nav_item');
 
-      listItems.forEach(element => {
-        element.addEventListener('click', () => {
-          menuLinks.classList.remove('change')
-      })
-      });
+listItems.forEach((element) => {
+  element.addEventListener('click', () => {
+    menuLinks.classList.remove('change');
+  });
+});

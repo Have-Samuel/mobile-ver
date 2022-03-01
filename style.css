@@ -21,15 +21,16 @@ body {
   font-weight: 700;
   line-height: 44px;
   text-align: left;
-  height: 0vh;
   background-color: #3c3a39;
-  position: fixed;
-  top: 0;
-  right: 0;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  right: -100%;
+  justify-content: flex-start;
   align-items: center;
+  transition: 0.1s;
 }
 
 .ham-menu {
@@ -41,18 +42,6 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-}
-
-.navmenu {
-  height: 100%;
-  position: fixed;
-  top: 0;
-  right: -100%;
-  background: #3c3a39;
-  display: flex;
-  justify-content: flex-start;
-  align-items: center;
-  transition: 0.1s;
 }
 
 .change {
@@ -78,7 +67,7 @@ body {
   font-style: normal;
   font-weight: 700;
   line-height: 44px;
-  letter-spacing: 0em;
+  letter-spacing: 0;
   text-align: left;
   color: rgba(255, 245, 225, 1);
   text-decoration: none;
