@@ -7,6 +7,72 @@
   width: auto;
 }
 
+body {
+  overflow-x: hidden;
+}
+
+/* Mobile menu  */
+
+.navmenu {
+  width: 100%;
+  font-family: 'inter', sans-serif;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 44px;
+  text-align: left;
+  background-color: #3c3a39;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  right: -100%;
+  justify-content: flex-start;
+  align-items: center;
+  transition: 0.1s;
+}
+
+.ham-menu {
+  width: 15px;
+  position: relative;
+  top: 33px;
+  left: 8.3rem;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.change {
+  right: 0;
+}
+
+.nav_list {
+  margin-top: 80px;
+  display: flex;
+  flex-direction: column;
+}
+
+.nav_item {
+  margin-right: 11rem;
+  padding: 10px;
+  border-bottom: 1px solid gray;
+  width: 90%;
+}
+
+.nav_link {
+  font-family: 'Inter', sans-serif;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 44px;
+  letter-spacing: 0;
+  text-align: left;
+  color: rgba(255, 245, 225, 1);
+  text-decoration: none;
+}
+
 ul {
   list-style: none;
 }
@@ -19,6 +85,8 @@ ul {
   align-items: center;
   padding: 30px 10%;
   list-style: none;
+  position: fixed;
+  width: 80%;
 }
 
 .logo {
@@ -176,7 +244,6 @@ ul {
   border: 1px solid #f55800;
   background: #fff5e1;
   color: #f55800;
-  text-decoration: underline #f55800;
 }
 
 .recent-stories .see__project {
@@ -226,12 +293,12 @@ ul {
 .recent-stories .see__project:hover {
   color: #5b5957;
   background-color: rgba(244, 241, 240, 1);
-  text-decoration: underline #5b5957;
 }
 
 .section1 {
   margin: 2rem;
   background: url('images/Grounding.png'), linear-gradient(180.45deg, rgba(38, 38, 38, 0) 0.75%, rgba(38, 38, 38, 0.9) 61.94%);
+  background-repeat: no-repeat;
 }
 
 .section1 h4 {
@@ -279,7 +346,6 @@ ul {
 
 .section1 .see-button:hover {
   background: #f4f1f0;
-  text-decoration: underline #87ceeb;
   border: 1px solid #87ceeb;
   color: #5b5957;
 }
@@ -417,10 +483,6 @@ form hr {
   color: #979493;
 }
 
-.form-line {
-  margin: 1.5rem 1.5rem;
-}
-
 textarea {
   background-color: #fbf8f7;
   margin: 0;
@@ -445,7 +507,7 @@ textarea {
   background: #ff6b00;
   color: #eee;
   padding: 01rem;
-  margin: 1.5rem 0 6rem 0;
+  margin: 1.5rem 0 6rem 5rem;
   text-decoration: none;
   border: none;
 }
@@ -597,7 +659,7 @@ textarea {
   }
 
   .placeholder {
-    width: 52%;
+    width: 51%;
     margin-top: 0;
     padding-right: 0;
   }
@@ -605,7 +667,7 @@ textarea {
   .project-info {
     display: flex;
     flex-direction: column;
-    width: 49%;
+    width: 53%;
   }
 
   .see__project {
@@ -656,7 +718,6 @@ textarea {
   }
 
   .see__project:hover {
-    text-decoration: underline #87ceeb;
     border: 2px solid #87ceeb;
   }
 
@@ -879,7 +940,7 @@ textarea {
   }
 
   .contact-section_form p {
-    width: 28%;
+    width: 60%;
     text-align: left;
     margin-left: 5rem;
   }
