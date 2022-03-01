@@ -33,7 +33,7 @@ const projects = [
     technologies: ['html', 'Bootstrap', 'Ruby'],
     liveLink: 'https://have-samuel.github.io/portfolio1/',
     sourceLink: 'https://github.com/Have-Samuel/portfolio1/tree/popup-menu',
-  }
+  },
 ];
 
 const arrClassName = ['project1', 'project2', 'project3', 'project4', 'project5', 'project6'];
@@ -46,7 +46,7 @@ function createProject(project, name) {
   <img class="image" src="${project.name}" alt ="portfolio">
   </div>
   <div class="section-paragragh">
-  <h4 class="sectio"`
+  <h4 class="section"`
 }
 
 const projectDetails = {
@@ -59,20 +59,13 @@ const projectDetails = {
 }
 
 function window (){
-  const blurDiv = document.createElement('div')
-  blurDiv.classList.add('blur')
+const blurDiv = document.createElement('div')
+blurDiv.classList.add('blur')
   
   let title = document.createElement('h3');
   title.innerHTML = projectDetails.name;
   blurDiv.appendChild(title);
   
   
-  document.body.appendChild(blurDiv)
-
-  
-  
-  
+  document.body.appendChild(blurDiv) 
 }
-
-
-
