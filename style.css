@@ -495,10 +495,6 @@ form hr {
   color: #979493;
 }
 
-.form-line {
-  margin: 1.5rem 1.5rem;
-}
-
 textarea {
   background-color: #fbf8f7;
   margin: 0;
@@ -523,7 +519,7 @@ textarea {
   background: #ff6b00;
   color: #eee;
   padding: 01rem;
-  margin: 1.5rem 0 6rem 0;
+  margin: 1.5rem 0 6rem 5rem;
   text-decoration: none;
   border: none;
 }
