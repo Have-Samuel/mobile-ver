@@ -543,6 +543,20 @@ textarea {
   display: none;
 }
 
+/* POPUP */
+
+.blur {
+  background: #55555555;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  position: fixed;
+  display: block;
+  backdrop-filter: blur(5px);
+}
+
+
 @media only screen and (min-width: 1010px) {
   body {
     width: 100%;

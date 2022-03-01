@@ -57,3 +57,8 @@ const projectDetails = {
   liveSrc: '#',
   sourceLink: '#'
 }
+
+const blurDiv = document.createElement('div')
+blurDiv.classList.add('blur')
+
+document.body.appendChild(blurDiv)
