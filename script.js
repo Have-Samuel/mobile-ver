@@ -12,6 +12,13 @@ const closeIcon = document.querySelector('.ham-menu');
         menuLinks.classList.remove('change')
       })
 
+      const listItems = document.querySelectorAll('.nav_item');
+
+      listItems.forEach(element => {
+        element.addEventListener('click', () => {
+          menuLinks.classList.remove('change')
+      })
+    });
 
 
 
