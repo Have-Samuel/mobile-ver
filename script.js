@@ -20,9 +20,6 @@ listItems.forEach((element) => {
   });
 });
 
-const allProjects = document.querySelector('.project');
-const popup = document.querySelector('.popup-project');
-
 const projects = [
   {
     projectId: 'projectOne',
@@ -36,18 +33,44 @@ const projects = [
   },
 ];
 
-const arrClassName = ['project1', 'project2', 'project3', 'project4', 'project5', 'project6'];
+const sectionCards = document.querySelector('.section-cards');
 
-function createProject(project, name) {
-  const techItem = `
-  <div class="${name}">
-  <section class="section1 section-cards empty-card">
-  <div id="post-container">
-  <img class="image" src="${project.name}" alt ="portfolio">
-  </div>
-  <div class="section-paragragh">
-  <h4 class="section"`
-}
+function createProjectCard(project) {
+  const section = document.createElement('section');
+  section.classList ='section1', '${project}';
+  const projectHeading = document.createElement('h4');
+  projectHeading.innerHTML='Profesional Art Printing Data';
+  section.appendChild(projectHeading);
+  const projectDesciption = document.createElement('p');
+  projectDesciption.textContent = 'A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry\'s standard'
+  section.appendChild(projectDesciption);
+
+  const projectSkills = document.createElement('ul');
+  const skills = ['html', 'bootstrap', 'Ruby'];
+
+  for (let i = 0; i < skills.length; i++) {
+    const projectSkillsList = document.createElement('li');
+    projectSkillsListItem.textContent = skills[i];
+    projectSkillsList.appendChild(projectSkillsListItem);
+   }
+
+   section.appendChild(projectSkillsList);
+
+   const projectButton = document.createElement('button');
+   projectButton.classList = 'see-project';
+   projectButton.innerText = 'See project';
+
+    section.appendChild(projectButton);
+
+    return section;
+  }
+
+  const projects = ['one', 'two', 'three', 'four', 'five', 'six'];
+
+  for(let i=0; i < projects.length; i++) {
+    const project = createProjectCard(projects[i]);
+    sectionCards.appendChild(project);
+  }
 
 const projectDetails = {
   name: 'Multi Post Stories',
