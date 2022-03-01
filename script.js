@@ -31,10 +31,20 @@ const projects = [
     + 'sign-ups required. has been the industry\'s standard',
     featuredImage: 'images/Background.png',
     technologies: ['html', 'Bootstrap', 'Ruby'],
-    liveLink: 'https://have-samuel.github.io/portfolio1/'
+    liveLink: 'https://have-samuel.github.io/portfolio1/',
     sourceLink: 'https://github.com/Have-Samuel/portfolio1/tree/popup-menu',
   }
 ];
 
 const arrClassName = ['project1', 'project2', 'project3', 'project4', 'project5', 'project6'];
 
+function createProject(project, name) {
+  const techItem = `
+  <div class="${name}">
+  <section class="section1 section-cards empty-card">
+  <div id="post-container">
+  <img class="image" src="${project.name}" alt ="portfolio">
+  </div>
+  <div class="section-paragragh">
+  <h4 class="sectio"`
+}
