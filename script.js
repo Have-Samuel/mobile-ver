@@ -111,23 +111,20 @@ const popup = {
 function creatPopupCard() {
   const popupWindow = document.createElement('section');
   document.body.appendChild(popupWindow);
+  popupWindow.classList = 'popup1';
   const div = document.createElement('div');
   div.classList = 'head-img';
   popupWindow.appendChild(div);
 
   const popupHeading = document.createElement('h3');
-  popupHeading.classList = 'head-img h3';
   popupHeading.textContent = popup.title;
   div.appendChild(popupHeading);
 
   const popupClose = document.createElement('img');
-  popupClose.classList = 'head-img img';
   popupClose.src = './images/Close.png';
   div.appendChild(popupClose);
 
   const popupSkills = document.createElement('ul');
-  popupSkills.classList = 'popup1 ul, popup1 ul li';
-  popupSkills.textContent = popup.techs;
 
   for (let i = 0; i < popup.techs.length; i += 1) {
     const links = document.createElement('li');
@@ -142,12 +139,10 @@ function creatPopupCard() {
   popupWindow.appendChild(div1);
 
   const img = document.createElement('img');
-  img.classList = 'img-head img';
   img.src = './images/popup.png';
   div1.appendChild(img);
 
   const paragraph = document.createElement('p');
-  paragraph.classList = 'img-head p';
   paragraph.textContent = popup.description;
   div1.appendChild(paragraph);
 
@@ -155,8 +150,17 @@ function creatPopupCard() {
   div2.classList = 'button-pop';
   popupWindow.appendChild(div2);
 
-  const popupButton = document.createElement('button');
+  const popupButton = document.createElement('a');
+  const img1 = document.createElement('img');
+  popupButton.appendChild(img1);
+  popupButton.textContent = 'See live';
   div2.appendChild(popupButton);
+
+  const popupButton1 = document.createElement('a');
+  const img1 = document.createElement('img');
+  popupButton.appendChild(img1);
+  popupButton1.textContent = 'See source';
+  div2.appendChild(popupButton1);
 }
 
 creatPopupCard();
