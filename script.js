@@ -27,7 +27,7 @@ const projects = [
     projectId: 0,
     title: 'Printing Data One',
     description:
-      'A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry\'s standard',
+      "A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard",
     featuredImage: 'images/Background.png',
     technologies: ['html', 'Bootstrap', 'Ruby'],
     liveLink: 'https://have-samuel.github.io/portfolio1/',
@@ -37,7 +37,7 @@ const projects = [
     projectId: 1,
     title: 'Printing Data Two',
     description:
-      'A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry\'s standard',
+      "A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard",
     featuredImage: 'images/Background.png',
     technologies: ['html', 'Bootstrap', 'Ruby'],
     liveLink: 'https://have-samuel.github.io/portfolio1/',
@@ -47,7 +47,7 @@ const projects = [
     projectId: 2,
     title: 'Printing Data Three',
     description:
-      'A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry\'s standard',
+      "A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard",
     featuredImage: 'images/Background.png',
     technologies: ['html', 'Bootstrap', 'Ruby'],
     liveLink: 'https://have-samuel.github.io/mobile-ver/',
@@ -99,51 +99,67 @@ for (let i = 0; i < projects.length; i += 1) {
 const popup = {
   title: 'Multi Post Stories',
   techs: ['html', 'Bootstrap', 'Ruby on rails'],
-  imgSrc: './images/Close.png','./images/popup.png',
+  imgSrc: './images/popup.png',
   description:
     "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent",
   livelink: 'https://have-samuel.github.io/mobile-ver',
   sourceLink: 'https://github.com/Have-Samuel/mobile-ver',
 };
 
-const popupWindow = document.querySelector('.popup1');
+// const popupWindow = document.querySelector('.popup1');
 
-function creatPopupCard(pop) {
+function creatPopupCard() {
+  const popupWindow = document.createElement('section');
+  document.body.appendChild(popupWindow);
   const div = document.createElement('div');
   div.classList = 'head-img';
   popupWindow.appendChild(div);
 
   const popupHeading = document.createElement('h3');
+  popupHeading.classList = 'head-img h3';
   popupHeading.textContent = popup.title;
   div.appendChild(popupHeading);
 
   const popupClose = document.createElement('img');
-  popupClose.textContent = popup.imgSrc;
+  popupClose.classList = 'head-img img';
+  popupClose.src = './images/Close.png';
   div.appendChild(popupClose);
 
   const popupSkills = document.createElement('ul');
+  popupSkills.classList = 'popup1 ul, popup1 ul li';
   popupSkills.textContent = popup.techs;
+
+  for (let i = 0; i < popup.techs.length; i += 1) {
+    const links = document.createElement('li');
+    links.textContent = popup.techs[i];
+    popupSkills.appendChild(links);
+  }
+
   popupWindow.appendChild(popupSkills);
 
-  const div = document.createElement('div');
-  div.classList = 'img-head';
-  popupWindow.appendChild(div);
+  const div1 = document.createElement('div');
+  div1.classList = 'img-head';
+  popupWindow.appendChild(div1);
 
   const img = document.createElement('img');
-  img.textContent = popup.imgSrc;
-  div.appendChild(img);
+  img.classList = 'img-head img';
+  img.src = './images/popup.png';
+  div1.appendChild(img);
 
   const paragraph = document.createElement('p');
+  paragraph.classList = 'img-head p';
   paragraph.textContent = popup.description;
-  div.appendChild(paragraph);
+  div1.appendChild(paragraph);
 
-  const div = document.createElement('div');
-  div.classList = 'button-pop';
-  popupWindow.appendChild(div);
+  const div2 = document.createElement('div');
+  div2.classList = 'button-pop';
+  popupWindow.appendChild(div2);
 
   const popupButton = document.createElement('button');
-  div.appendChild(popupButton);
+  div2.appendChild(popupButton);
 }
+
+creatPopupCard();
 
 // function window() {
 //   const blurDiv = document.createElement('div');
