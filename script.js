@@ -50,7 +50,7 @@ const projects = [
       'A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry\'s standard',
     featuredImage: 'images/Background.png',
     technologies: ['html', 'Bootstrap', 'Ruby'],
-    liveLink: 'https://have-samuel.github.io/portfolio1/',
+    liveLink: 'https://have-samuel.github.io/mobile-ver/',
     sourceLink: 'https://github.com/Have-Samuel/portfolio1/tree/popup-menu',
   },
 ];
@@ -95,16 +95,55 @@ for (let i = 0; i < projects.length; i += 1) {
   const project = createProjectCard(projects[i]);
   sectionCards.appendChild(project);
 }
-
+// POPUP-WINDOW
 const popup = {
-  name: 'Multi Post Stories',
+  title: 'Multi Post Stories',
   techs: ['html', 'Bootstrap', 'Ruby on rails'],
-  imgSrc: './images/#',
+  imgSrc: './images/Close.png','./images/popup.png',
   description:
     "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent",
-  liveSrc: '#',
-  sourceLink: '#',
+  livelink: 'https://have-samuel.github.io/mobile-ver',
+  sourceLink: 'https://github.com/Have-Samuel/mobile-ver',
 };
+
+const popupWindow = document.querySelector('.popup1');
+
+function creatPopupCard(pop) {
+  const div = document.createElement('div');
+  div.classList = 'head-img';
+  popupWindow.appendChild(div);
+
+  const popupHeading = document.createElement('h3');
+  popupHeading.textContent = popup.title;
+  div.appendChild(popupHeading);
+
+  const popupClose = document.createElement('img');
+  popupClose.textContent = popup.imgSrc;
+  div.appendChild(popupClose);
+
+  const popupSkills = document.createElement('ul');
+  popupSkills.textContent = popup.techs;
+  popupWindow.appendChild(popupSkills);
+
+  const div = document.createElement('div');
+  div.classList = 'img-head';
+  popupWindow.appendChild(div);
+
+  const img = document.createElement('img');
+  img.textContent = popup.imgSrc;
+  div.appendChild(img);
+
+  const paragraph = document.createElement('p');
+  paragraph.textContent = popup.description;
+  div.appendChild(paragraph);
+
+  const div = document.createElement('div');
+  div.classList = 'button-pop';
+  popupWindow.appendChild(div);
+
+  const popupButton = document.createElement('button');
+  div.appendChild(popupButton);
+}
 
 // function window() {
 //   const blurDiv = document.createElement('div');
