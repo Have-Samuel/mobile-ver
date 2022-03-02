@@ -569,6 +569,14 @@ textarea {
   backdrop-filter: blur(5px);
 }
 
+.popup1 {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: #eee;
+}
+
 .head-img {
   display: flex;
   justify-content: space-between;
@@ -641,6 +649,10 @@ textarea {
 
 span {
   padding: 6px;
+}
+
+.window-popup {
+  display: block;
 }
 
 @media only screen and (min-width: 1010px) {
@@ -906,6 +918,10 @@ span {
 
   .section-cards .see-button {
     display: none;
+  }
+
+  .section1:hover .see-button {
+    display: block;
   }
 
   .one .see-button1 {

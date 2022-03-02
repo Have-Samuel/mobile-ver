@@ -151,19 +151,40 @@ function creatPopupCard() {
   popupWindow.appendChild(div2);
 
   const popupButton = document.createElement('a');
-  const img1 = document.createElement('img');
-  popupButton.appendChild(img1);
   popupButton.textContent = 'See live';
+  const buttonSpan = document.createElement('span');
+  popupButton.appendChild(buttonSpan);
+  const img1 = document.createElement('img');
+  img1.src = './images/popup1.svg';
+  popupButton.appendChild(img1);
   div2.appendChild(popupButton);
 
   const popupButton1 = document.createElement('a');
-  const img2 = document.createElement('img');
-  popupButton.appendChild(img2);
   popupButton1.textContent = 'See source';
+  const buttonSpan1 = document.createElement('span');
+  popupButton1.appendChild(buttonSpan1);
+  const img2 = document.createElement('img');
+  img2.src = './images/Github1.png';
+  popupButton1.appendChild(img2);
   div2.appendChild(popupButton1);
 }
 
 creatPopupCard();
+
+const popupWindow = document.getElementsByClassName('popup1')[0];
+const windowClose = document.querySelectorAll('.see-button');
+
+for (let i = 0; i < windowClose.length; i += 1) {
+  windowClose[i].addEventListener('click', () => {
+    console.log('Helo');
+    popupWindow.classList.add('window-popup');
+  });
+}
+
+const closeB = popupWindow.querySelector('img');
+closeB.addEventListener('click', () => {
+  popupWindow.classList.remove('window-popup');
+});
 
 // function window() {
 //   const blurDiv = document.createElement('div');
