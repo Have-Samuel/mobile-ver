@@ -556,6 +556,10 @@ textarea {
   backdrop-filter: blur(5px);
 }
 
+.popup1 h3 {
+
+}
+
 @media only screen and (min-width: 1010px) {
   body {
     width: 100%;
