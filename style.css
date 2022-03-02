@@ -556,7 +556,7 @@ textarea {
   display: none;
 }
 
-/* POPUP */
+/* POPUP-MOBILE */
 
 .blur {
   background: rgba(85, 85, 85, 0.333);
@@ -639,10 +639,6 @@ textarea {
   cursor: pointer;
 }
 
-.button-pop button:hover {
-  
-}
-
 span {
   padding: 6px;
 }
@@ -651,6 +647,43 @@ span {
   body {
     width: 100%;
     margin: 0 auto;
+  }
+
+  /* POPUP-DESKTOP */
+
+  .popup1 {
+    margin: 1rem 3rem;
+  }
+
+  .popup1 ul {
+    display: flex;
+    justify-content: flex-start;
+  }
+
+  .popup1 ul li {
+    margin: 5px;
+  }
+
+  .img-head {
+    display: flex;
+  }
+
+  .img-head img {
+    width: 60%;
+    margin-right: 0;
+  }
+
+  .img-head p {
+    width: 40%;
+    margin-left: 1rem;
+    margin-top: 1rem;
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0;
+    text-align: left;
   }
 
   .hambug {
