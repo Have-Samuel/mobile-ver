@@ -666,16 +666,17 @@ span {
 
   .img-head {
     display: flex;
+    justify-content: space-evenly;
   }
 
   .img-head img {
-    width: 60%;
+    width: 70%;
     margin-right: 0;
   }
 
   .img-head p {
-    width: 40%;
-    margin-left: 1rem;
+    width: 50%;
+    margin-left: 1.8rem;
     margin-top: 1rem;
     font-family: 'Inter', sans-serif;
     font-size: 16px;
@@ -684,6 +685,12 @@ span {
     line-height: 30px;
     letter-spacing: 0;
     text-align: left;
+  }
+
+  .button-pop {
+    display: flex;
+    padding-left: 32rem;
+    margin-top: -4.5em;
   }
 
   .hambug {
