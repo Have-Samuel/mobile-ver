@@ -20,13 +20,34 @@ listItems.forEach((element) => {
     menuLinks.classList.remove('change');
   });
 });
- // project cards object
+
+// project cards object
 const projects = [
   {
-    projectId: 'projectOne',
-    name: 'Printing Data One',
-    description: 'A daily selection of privately personalized reads; no accounts or '
-    + 'sign-ups required. has been the industry\'s standard',
+    projectId: 0,
+    title: 'Printing Data One',
+    description:
+      'A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry\'s standard',
+    featuredImage: 'images/Background.png',
+    technologies: ['html', 'Bootstrap', 'Ruby'],
+    liveLink: 'https://have-samuel.github.io/portfolio1/',
+    sourceLink: 'https://github.com/Have-Samuel/portfolio1/tree/popup-menu',
+  },
+  {
+    projectId: 1,
+    title: 'Printing Data Two',
+    description:
+      'A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry\'s standard',
+    featuredImage: 'images/Background.png',
+    technologies: ['html', 'Bootstrap', 'Ruby'],
+    liveLink: 'https://have-samuel.github.io/portfolio1/',
+    sourceLink: 'https://github.com/Have-Samuel/portfolio1/tree/popup-menu',
+  },
+  {
+    projectId: 2,
+    title: 'Printing Data Three',
+    description:
+      'A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry\'s standard',
     featuredImage: 'images/Background.png',
     technologies: ['html', 'Bootstrap', 'Ruby'],
     liveLink: 'https://have-samuel.github.io/portfolio1/',
@@ -38,60 +59,60 @@ const sectionCards = document.querySelector('.section-cards');
 
 function createProjectCard(project) {
   const section = document.createElement('section');
-  section.classList ='section1', '${project}';
+  section.classList = 'section1';
   // <h4>
   const projectHeading = document.createElement('h4');
-  projectHeading.innerHTML='Profesional Art Printing Data';
+  projectHeading.innerHTML = project.title;
   section.appendChild(projectHeading);
   // <p>
   const projectDesciption = document.createElement('p');
-  projectDesciption.textContent = 'A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry\'s standard'
+  projectDesciption.textContent = project.description;
   section.appendChild(projectDesciption);
-      //skills
+  // skills
   const projectSkills = document.createElement('ul');
-  const skills = ['html', 'bootstrap', 'Ruby'];
-    // looping the skills
-  for (let i = 0; i < skills.length; i++) {
-    const projectSkillsList = document.createElement('li');
+  const skills = project.technologies;
+  // looping the skills
+  for (let i = 0; i < skills.length; i += 1) {
+    const projectSkillsListItem = document.createElement('li');
     projectSkillsListItem.textContent = skills[i];
-    projectSkillsList.appendChild(projectSkillsListItem);
-   }
-
-   section.appendChild(projectSkillsList);
-    //<button
-   const projectButton = document.createElement('button');
-   projectButton.classList = 'see-project';
-   projectButton.innerText = 'See project';
-
-    section.appendChild(projectButton);
-
-    return section;
+    projectSkills.appendChild(projectSkillsListItem);
+    section.appendChild(projectSkills);
   }
-      //
-  const projects = ['one', 'two', 'three', 'four', 'five', 'six'];
+  // <button>
+  const projectButton = document.createElement('button');
+  projectButton.classList = 'see-button';
+  projectButton.innerText = 'See project';
 
-  for(let i=0; i < projects.length; i++) {
-    const project = createProjectCard(projects[i]);
-    sectionCards.appendChild(project);
-  }
+  section.appendChild(projectButton);
+  // when clicked shows Id
+  projectButton.addEventListener('click', () => {
+    console.log(project.projectId);
+  });
+  return section;
+}
+
+for (let i = 0; i < projects.length; i += 1) {
+  const project = createProjectCard(projects[i]);
+  sectionCards.appendChild(project);
+}
 
 const popup = {
   name: 'Multi Post Stories',
   techs: ['html', 'Bootstrap', 'Ruby on rails'],
   imgSrc: './images/#',
-  description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent',
+  description:
+    "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent",
   liveSrc: '#',
-  sourceLink: '#'
-}
+  sourceLink: '#',
+};
 
 // function window (){
 // const blurDiv = document.createElement('div')
 // blurDiv.classList.add('blur')
-  
+
 //   let title = document.createElement('h3');
 //   title.innerHTML = projects.name;
 //   blurDiv.appendChild(title);
-  
-  
-//   document.body.appendChild(blurDiv) 
+
+//   document.body.appendChild(blurDiv)
 // }
