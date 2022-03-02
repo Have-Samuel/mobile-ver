@@ -157,8 +157,8 @@ function creatPopupCard() {
   div2.appendChild(popupButton);
 
   const popupButton1 = document.createElement('a');
-  const img1 = document.createElement('img');
-  popupButton.appendChild(img1);
+  const img2 = document.createElement('img');
+  popupButton.appendChild(img2);
   popupButton1.textContent = 'See source';
   div2.appendChild(popupButton1);
 }
