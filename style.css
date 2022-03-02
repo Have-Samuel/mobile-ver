@@ -639,6 +639,10 @@ textarea {
   cursor: pointer;
 }
 
+.button-pop button:hover {
+  
+}
+
 span {
   padding: 6px;
 }
