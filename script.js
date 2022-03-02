@@ -96,6 +96,7 @@ for (let i = 0; i < projects.length; i += 1) {
   sectionCards.appendChild(project);
 }
 
+// eslint-disable-next-line no-unused-vars
 const popup = {
   name: 'Multi Post Stories',
   techs: ['html', 'Bootstrap', 'Ruby on rails'],
@@ -106,13 +107,13 @@ const popup = {
   sourceLink: '#',
 };
 
-// function window (){
-// const blurDiv = document.createElement('div')
-// blurDiv.classList.add('blur')
+function window() {
+  const blurDiv = document.createElement('div');
+  blurDiv.classList.add('blur');
 
-//   let title = document.createElement('h3');
-//   title.innerHTML = projects.name;
-//   blurDiv.appendChild(title);
+  const title = document.createElement('h3');
+  title.innerHTML = projects.name;
+  blurDiv.appendChild(title);
 
-//   document.body.appendChild(blurDiv)
-// }
+  document.body.appendChild(blurDiv);
+}
