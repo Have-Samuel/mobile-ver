@@ -1,3 +1,4 @@
+// The mobile menu
 const closeIcon = document.querySelector('.ham-menu');
 
 const menuIcon = document.querySelector('.hambug');
@@ -7,19 +8,19 @@ const menuLinks = document.querySelector('.navmenu');
 menuIcon.addEventListener('click', () => {
   menuLinks.classList.add('change');
 });
-
+// click to appear
 closeIcon.addEventListener('click', () => {
   menuLinks.classList.remove('change');
 });
 
 const listItems = document.querySelectorAll('.nav_item');
-
+// click to disappear
 listItems.forEach((element) => {
   element.addEventListener('click', () => {
     menuLinks.classList.remove('change');
   });
 });
-
+ // project cards object
 const projects = [
   {
     projectId: 'projectOne',
@@ -32,22 +33,24 @@ const projects = [
     sourceLink: 'https://github.com/Have-Samuel/portfolio1/tree/popup-menu',
   },
 ];
-
+// Calling the cards
 const sectionCards = document.querySelector('.section-cards');
 
 function createProjectCard(project) {
   const section = document.createElement('section');
   section.classList ='section1', '${project}';
+  // <h4>
   const projectHeading = document.createElement('h4');
   projectHeading.innerHTML='Profesional Art Printing Data';
   section.appendChild(projectHeading);
+  // <p>
   const projectDesciption = document.createElement('p');
   projectDesciption.textContent = 'A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry\'s standard'
   section.appendChild(projectDesciption);
-
+      //skills
   const projectSkills = document.createElement('ul');
   const skills = ['html', 'bootstrap', 'Ruby'];
-
+    // looping the skills
   for (let i = 0; i < skills.length; i++) {
     const projectSkillsList = document.createElement('li');
     projectSkillsListItem.textContent = skills[i];
@@ -55,7 +58,7 @@ function createProjectCard(project) {
    }
 
    section.appendChild(projectSkillsList);
-
+    //<button
    const projectButton = document.createElement('button');
    projectButton.classList = 'see-project';
    projectButton.innerText = 'See project';
@@ -64,7 +67,7 @@ function createProjectCard(project) {
 
     return section;
   }
-
+      //
   const projects = ['one', 'two', 'three', 'four', 'five', 'six'];
 
   for(let i=0; i < projects.length; i++) {
@@ -81,14 +84,14 @@ const popup = {
   sourceLink: '#'
 }
 
-function window (){
-const blurDiv = document.createElement('div')
-blurDiv.classList.add('blur')
+// function window (){
+// const blurDiv = document.createElement('div')
+// blurDiv.classList.add('blur')
   
-  let title = document.createElement('h3');
-  title.innerHTML = projects.name;
-  blurDiv.appendChild(title);
+//   let title = document.createElement('h3');
+//   title.innerHTML = projects.name;
+//   blurDiv.appendChild(title);
   
   
-  document.body.appendChild(blurDiv) 
-}
+//   document.body.appendChild(blurDiv) 
+// }
