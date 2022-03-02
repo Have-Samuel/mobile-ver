@@ -185,14 +185,3 @@ const closeB = popupWindow.querySelector('img');
 closeB.addEventListener('click', () => {
   popupWindow.classList.remove('window-popup');
 });
-
-// function window() {
-//   const blurDiv = document.createElement('div');
-//   blurDiv.classList.add('blur');
-
-//   const title = document.createElement('h3');
-//   title.innerHTML = projects.name;
-//   blurDiv.appendChild(title);
-
-//   document.body.appendChild(blurDiv);
-// }
