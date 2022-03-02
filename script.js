@@ -86,7 +86,6 @@ function createProjectCard(project) {
   section.appendChild(projectButton);
   // when clicked shows Id
   projectButton.addEventListener('click', () => {
-    console.log(project.projectId);
   });
   return section;
 }
@@ -105,8 +104,6 @@ const popup = {
   livelink: 'https://have-samuel.github.io/mobile-ver',
   sourceLink: 'https://github.com/Have-Samuel/mobile-ver',
 };
-
-// const popupWindow = document.querySelector('.popup1');
 
 function creatPopupCard() {
   const popupWindow = document.createElement('section');
@@ -176,7 +173,6 @@ const windowClose = document.querySelectorAll('.see-button');
 
 for (let i = 0; i < windowClose.length; i += 1) {
   windowClose[i].addEventListener('click', () => {
-    console.log('Helo');
     popupWindow.classList.add('window-popup');
   });
 }
