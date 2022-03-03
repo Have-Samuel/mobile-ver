@@ -189,6 +189,11 @@ const form  = document.getElementsByName('form')[0];
 
 const formEmail = document.getElementsByClassName('contact-email')[0];
 
+const small = document.getElementById('error_message');
+
+const error = 'Email format invalid - just lower cases!'
+
 form.addEventListener('submit', () => {
+  
   
 })
