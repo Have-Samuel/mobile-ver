@@ -186,43 +186,8 @@ closeB.addEventListener('click', () => {
 
 // Client-Side-Validation
 const form = document.getElementsByName('form');
+// find email
+const contactEmail = form.email;
+// find Msg holder
+const msgHolder = document.getElementsByI('smallMsg');
 
-const email = document.getElementsById('fillup');
-const emailError = document.querySelector('#fillup');
-
-email.addEventListener('input', () => {
-  if (email.validty.valid) {
-    emailError.textContent = '';
-    emailError.className = 'contact-email';
-  } else {
-    showError();
-  }
-});
-
-form.addEventListener('submit', () => {
-  if (!email.validty.valid) {
-    showError();
-    event.preventDefault();
-  }
-});
-
-function showError() {
-  if (email.validty.patternMismatch) {
-    emailError.textContent = 'Email address should be in lower case.';
-  }
-}
-
-// validateEmail()
-const validateEmail(input, requiredMsg, invalidMsg) {
-  if(!hasValue(input, requiredMsg)) {
-    return false;
-  }
-
-  const emailRegex = /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
-
-  const email = input.value.trim();
-  if (!emailRegex.test(email)) {
-    return showError(input, invalidMsg);
-  }
-  return true;
-}
