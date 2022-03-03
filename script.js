@@ -188,3 +188,13 @@ closeB.addEventListener('click', () => {
 const form  = document.getElementsByName('form');
 
 const email = document.getElementsById('fillup');
+const emailError = document.querySelector('#fillup');
+
+email.addEventListener('input', () => {
+  if (email.validty.valid) {
+    emailError.textContent = '';
+    emailError.className = 'contact-email';
+  } else {
+    showError();
+  }
+});
