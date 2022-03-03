@@ -185,6 +185,10 @@ closeB.addEventListener('click', () => {
 });
 
 // Client-Side-Validation
-const form  = document.getElementsByName('form');
+const form  = document.getElementsByName('form')[0];
 
-const email = document.getElementsById('fillup');
+const formEmail = document.getElementsByClassName('contact-email')[0];
+
+form.addEventListener('submit', () => {
+  
+})
