@@ -53,6 +53,36 @@ const projects = [
     liveLink: 'https://have-samuel.github.io/mobile-ver/',
     sourceLink: 'https://github.com/Have-Samuel/portfolio1/tree/popup-menu',
   },
+  {
+    projectId: 2,
+    title: 'Printing Data Three',
+    description:
+      "A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard",
+    featuredImage: 'images/Background.png',
+    technologies: ['html', 'Bootstrap', 'Ruby'],
+    liveLink: 'https://have-samuel.github.io/mobile-ver/',
+    sourceLink: 'https://github.com/Have-Samuel/portfolio1/tree/popup-menu',
+  },
+  {
+    projectId: 2,
+    title: 'Printing Data Three',
+    description:
+      "A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard",
+    featuredImage: 'images/Background.png',
+    technologies: ['html', 'Bootstrap', 'Ruby'],
+    liveLink: 'https://have-samuel.github.io/mobile-ver/',
+    sourceLink: 'https://github.com/Have-Samuel/portfolio1/tree/popup-menu',
+  },
+  {
+    projectId: 2,
+    title: 'Printing Data Three',
+    description:
+      "A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard",
+    featuredImage: 'images/Background.png',
+    technologies: ['html', 'Bootstrap', 'Ruby'],
+    liveLink: 'https://have-samuel.github.io/mobile-ver/',
+    sourceLink: 'https://github.com/Have-Samuel/portfolio1/tree/popup-menu',
+  },
 ];
 // Calling the cards
 const sectionCards = document.querySelector('.section-cards');
@@ -186,7 +216,7 @@ closeB.addEventListener('click', () => {
 
 // Client-Side-Validation
 const form = document.getElementById('form');
-// find email
+
 const formEmail = document.getElementsByClassName('contact-email')[0];
 
 const small = document.getElementById('error_message');

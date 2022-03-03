@@ -888,11 +888,11 @@ span {
     margin-top: 1rem;
   }
 
-  .empty-card {
+  /* .empty-card {
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
-  }
+  } */
 
   .see-button1 {
     background: #ff6b00;
@@ -915,12 +915,12 @@ span {
     color: #f55800;
   }
 
-  #empty-card_content {
+  /* #empty-card_content {
     display: none;
-  }
+  } */
 
   .section-cards .see-button {
-    display: none;
+    display: block;
   }
 
   .section1:hover .see-button {
