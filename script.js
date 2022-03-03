@@ -131,6 +131,7 @@ function creatPopupCard() {
 
   popupWindow.appendChild(popupSkills);
 
+  // The popup window
   const div1 = document.createElement('div');
   div1.classList = 'img-head';
   popupWindow.appendChild(div1);
@@ -168,6 +169,7 @@ function creatPopupCard() {
 
 creatPopupCard();
 
+// Closing of the popup window
 const popupWindow = document.getElementsByClassName('popup1')[0];
 const windowClose = document.querySelectorAll('.see-button');
 
@@ -181,3 +183,8 @@ const closeB = popupWindow.querySelector('img');
 closeB.addEventListener('click', () => {
   popupWindow.classList.remove('window-popup');
 });
+
+// Client-Side-Validation
+const form  = document.getElementsByName('form');
+
+const email = document.getElementsById('fillup');
