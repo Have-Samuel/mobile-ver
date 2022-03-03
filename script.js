@@ -185,23 +185,22 @@ closeB.addEventListener('click', () => {
 });
 
 // Client-Side-Validation
-const form = document.getElementsByName('form')[0];
+const form = document.getElementById('form');
 // find email
 const formEmail = document.getElementsByClassName('contact-email')[0];
 
 const small = document.getElementById('error_message');
 function textMsg() {
-  small.innerText = 'Please Lower case only!';
+  small.innerHTML = 'Please Lower case only!';
 }
-small.classList = 'small-text';
-formEmail.appendChild(small);
-form.appendChild(formEmail);
+small.classList.add('small-text');
 
 function checking(str) {
-  return !/[A_Z]/.test(str);
+  return !/[A-Z]/.test(str);
 }
+
 form.addEventListener('submit', (event) => {
-  const correctEmail = checking(formEmail);
+  const correctEmail = checking(formEmail.value);
   if (!correctEmail) {
     event.preventDefault();
     textMsg();

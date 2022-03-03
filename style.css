@@ -652,9 +652,8 @@ span {
 
 /* validation */
 .small-text {
-  font-size: 80%;
-  color: white;
-  background-color: #990000;
+  font-size: 90%;
+  color: hsl(0, 100%, 30%);
 }
 
 @media only screen and (min-width: 1010px) {
