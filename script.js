@@ -185,16 +185,25 @@ closeB.addEventListener('click', () => {
 });
 
 // Client-Side-Validation
-const form = document.getElementsByName('form')[0];
-// find email
-const formEmail = document.getElementsByClassName('contact-email')[0];
+const form = document.getElementsById('form');
 
-const small = document.getElementById('error_message');
+const contactForm = form.email;
 
-const error = 'Email format invalid - just lower cases!'
+const msgErr = document.getElementById('error_message');
 
-form.addEventListener('submit', () => {
-  
-  
+function textmsg() {
+  msgErr.innerText = 'Please lower case only';
+}
+
+function checklowercase(str) {
+  return !/[A-Z]/.test(str);
+}
+
+form.addEventListener('submit', (event) => {
+  const correctEmail = checklowercase(contactForm.value);
+
+  if (!correctEmail) {
+    event.preventDefault();
+    textmsg();
+  }
 });
-
