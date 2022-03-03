@@ -195,6 +195,7 @@ function textMsg() {
 }
 small.classList = 'small-text';
 formEmail.appendChild(small);
+form.appendChild(formEmail);
 
 function checking(str) {
   return !/[A_Z]/.test(str);
