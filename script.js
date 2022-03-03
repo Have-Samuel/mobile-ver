@@ -185,9 +185,16 @@ closeB.addEventListener('click', () => {
 });
 
 // Client-Side-Validation
-const form = document.getElementsByName('form');
+const form = document.getElementsByName('form')[0];
 // find email
-const contactEmail = form.email;
-// find Msg holder
-const msgHolder = document.getElementsByI('smallMsg');
+const formEmail = document.getElementsByClassName('contact-email')[0];
+
+const small = document.getElementById('error_message');
+
+const error = 'Email format invalid - just lower cases!'
+
+form.addEventListener('submit', () => {
+  
+  
+});
 
