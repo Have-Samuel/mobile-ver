@@ -236,3 +236,17 @@ form.addEventListener('submit', (event) => {
     textMsg();
   }
 });
+
+// localStorage
+const formData = {};
+
+Data = {
+  fullName = 'name',
+  emailAdd = 'email',
+  textArea = 'message';
+}
+
+let myData = JSON.stringify(Data);
+localStorage.setItem('txt');
+let obj = JSON.parse(message);
+console.log(obj);
