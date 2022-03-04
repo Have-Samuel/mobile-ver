@@ -240,13 +240,13 @@ form.addEventListener('submit', (event) => {
 // localStorage
 const formData = {};
 
-Data = {
-  fullName = 'name',
-  emailAdd = 'email',
-  textArea = 'message';
+data = {
+  fullname = 'name',
+  emailadd = 'email',
+  textarea = 'message',
 }
 
-let myData = JSON.stringify(Data);
+let myData = JSON.stringify(data);
 localStorage.setItem('txt');
 let obj = JSON.parse(message);
 console.log(obj);
