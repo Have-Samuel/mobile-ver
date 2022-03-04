@@ -249,4 +249,4 @@ data = {
 let myData = JSON.stringify(data);
 localStorage.setItem('txt');
 let obj = JSON.parse(message);
-console.log(obj);
+console.log(obj.data);
