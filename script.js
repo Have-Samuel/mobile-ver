@@ -131,6 +131,7 @@ function creatPopupCard() {
 
   popupWindow.appendChild(popupSkills);
 
+  // The popup window
   const div1 = document.createElement('div');
   div1.classList = 'img-head';
   popupWindow.appendChild(div1);
@@ -168,6 +169,7 @@ function creatPopupCard() {
 
 creatPopupCard();
 
+// Closing of the popup window
 const popupWindow = document.getElementsByClassName('popup1')[0];
 const windowClose = document.querySelectorAll('.see-button');
 
@@ -180,4 +182,27 @@ for (let i = 0; i < windowClose.length; i += 1) {
 const closeB = popupWindow.querySelector('img');
 closeB.addEventListener('click', () => {
   popupWindow.classList.remove('window-popup');
+});
+
+// Client-Side-Validation
+const form = document.getElementById('form');
+// find email
+const formEmail = document.getElementsByClassName('contact-email')[0];
+
+const small = document.getElementById('error_message');
+function textMsg() {
+  small.innerHTML = 'Please Lower case only!';
+}
+small.classList.add('small-text');
+
+function checking(str) {
+  return !/[A-Z]/.test(str);
+}
+
+form.addEventListener('submit', (event) => {
+  const correctEmail = checking(formEmail.value);
+  if (!correctEmail) {
+    event.preventDefault();
+    textMsg();
+  }
 });
