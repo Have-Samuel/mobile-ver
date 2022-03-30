@@ -650,6 +650,12 @@ span {
   display: block;
 }
 
+/* validation */
+.small-text {
+  font-size: 90%;
+  color: hsl(0, 100%, 30%);
+}
+
 @media only screen and (min-width: 1010px) {
   body {
     width: 100%;
