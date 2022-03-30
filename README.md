@@ -20,6 +20,12 @@ This is an example of how you may give instructions on setting up your project l
 
 To get a local copy up and running follow these simple example steps.
 
+[images](images/A1.png)
+[images](images/A3.png)
+[images](images/A4.png)
+[images](images/A5.png)
+[images](images/A6.png)
+
 ## Prerequisites
 
 ## Setup
